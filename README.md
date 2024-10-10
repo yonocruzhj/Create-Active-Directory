@@ -1,7 +1,10 @@
 <h1>Setting Up Active Directory Lab</h1>
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+This project outlines the steps to set up a basic home lab running Active Directory (AD) using a virtualized environment. Active Directory is a directory service developed by Microsoft that provides centralized authentication, authorization, and management for users, devices, and resources in a Windows-based network. 
+
+<h2>Goals</h2>
+The purpose of this home lab setup is to simulate a real-world network, allowing cybersecurity enthusiasts to learn and practice skills like user management, group policies, DNS configurations, and domain management.
 <br />
 
 
