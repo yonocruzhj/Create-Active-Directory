@@ -7,44 +7,45 @@ This project outlines the steps to set up a basic home lab running Active Direct
 The purpose of this home lab setup is to simulate a real-world network, allowing cybersecurity enthusiasts to learn and practice skills like user management, group policies, DNS configurations, and domain management.
 <br />
 
-
-<h2>Languages and Utilities Used</h2>
-
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
-
 <h2>Environments Used </h2>
 
 - <b>Windows 10</b>
+- <b>Windows 2019 Server</b>
 - <b> UTM Virtual Machines for macOS</b>
 
-<h2>Program walk-through:</h2>
+<h2>Configure Active Directory Domain Serivices On Windows Server:</h2>
 
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Assign Static IP: <br/>
+<img src="https://imgur.com/Hk7QatQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Install AD DS:  <br/>
+<img src="https://imgur.com/seCc34h.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Promote Server to a Domain Controller <br/>
+<img src="https://imgur.com/sqY98ze.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/7xK7gAg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
+
+<h2> Set UP Windows Client VM </h2>
+Assign static IP address<br/>
 <img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
+Join Domain <br/>
 <img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
+<h2> Managing Active Directory</h2>
 <br />
-Sanitization complete:  <br/>
+Create User Accounts and Organize into Organizational Units (OUs)<br/>
 <img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
+Manage Group Policies<br/>
 <img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Test Authentication<br/>
+<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
 </p>
