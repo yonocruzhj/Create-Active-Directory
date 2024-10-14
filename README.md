@@ -9,7 +9,7 @@ The purpose of this home lab setup is to simulate a real-world network, allowing
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b>
+- <b>Windows 11</b>
 - <b>Windows 2019 Server</b>
 - <b> UTM Virtual Machines for macOS</b>
 
@@ -29,18 +29,20 @@ Promote Server to a Domain Controller <br/>
 <br />
 <br />
 
-<h2> Set UP Windows Client VM </h2>
-Assign static IP address<br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<h2> Connect Windows 11 Client to Server </h2>
+Assign static IP to client<br/>
+<img src="https://imgur.com/AzbRZHJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Join Domain <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=".png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <h2> Managing Active Directory</h2>
 <br />
 Create User Accounts and Organize into Organizational Units (OUs)<br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/mEkt2A2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/QcWfyqv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/X3r7Pzo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Manage Group Policies<br/>
