@@ -34,8 +34,8 @@ Assign static IP to client<br/>
 <img src="https://imgur.com/AzbRZHJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Join Domain <br/>
-<img src=".png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Join Domain and Change PC Name <br/>
+<img src="https://imgur.com/VcUIS5N.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <h2> Managing Active Directory</h2>
 <br />
@@ -46,8 +46,9 @@ Create User Accounts and Organize into Organizational Units (OUs)<br/>
 <br />
 <br />
 Manage Group Policies<br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/2j54YQp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/SBmmzpi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 Test Authentication<br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/SBmmzpi" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 </p>
