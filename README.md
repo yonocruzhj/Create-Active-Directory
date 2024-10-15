@@ -7,6 +7,10 @@ This project outlines the steps to set up a basic home lab running Active Direct
 The purpose of this home lab setup is to simulate a real-world network, allowing cybersecurity enthusiasts to learn and practice skills like user management, group policies, DNS configurations, and domain management.
 <br />
 
+<h2>Languages and Utilities </h2>
+
+- <b> Powershell </b> 
+
 <h2>Environments Used </h2>
 
 - <b>Windows 11</b>
@@ -15,13 +19,18 @@ The purpose of this home lab setup is to simulate a real-world network, allowing
 
 <h2>Configure Active Directory Domain Serivices On Windows Server:</h2>
 
-Assign Static IP: <br/>
+Assign Static IP to Adapter that will act as NIC for internal network (bridged): <br/>
 <img src="https://imgur.com/Hk7QatQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
+Install RAS/NAT: <br/>
+<img src="https://imgur.com/WwoAdmj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 Install AD DS:  <br/>
 <img src="https://imgur.com/seCc34h.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/WwoAdmj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
+Install DHCP and Create New Scope:
+<img src="https://imgur.com/1MqNm8l.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 Promote Server to a Domain Controller <br/>
 <img src="https://imgur.com/sqY98ze.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -39,11 +48,10 @@ Join Domain and Change PC Name <br/>
 <br />
 <h2> Managing Active Directory</h2>
 <br />
-Create User Accounts and Organize into Organizational Units (OUs)<br/>
-<img src="https://imgur.com/mEkt2A2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://imgur.com/QcWfyqv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://imgur.com/X3r7Pzo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Create User Accounts and Organize into Organizational Units (OUs) using script<br/>
+<img src="https://imgur.com/9QgBy4n.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
+
 <br />
 Manage Group Policies<br/>
 <img src="https://imgur.com/2j54YQp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
