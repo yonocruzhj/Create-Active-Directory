@@ -40,7 +40,7 @@ Promote Server to a Domain Controller <br/>
 
 <h2> Connect Windows 11 Client to Server </h2>
 Assign static IP to client<br/>
-<img src="https://imgur.com/AzbRZHJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=".png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Join Domain and Change PC Name <br/>
