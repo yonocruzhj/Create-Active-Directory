@@ -44,7 +44,7 @@ Assign static IP to client<br/>
 <br />
 <br />
 Join Domain and Change PC Name <br/>
-<img src="https://imgur.com/VcUIS5N.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/ldYMWAy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <h2> Managing Active Directory</h2>
 <br />
@@ -56,7 +56,9 @@ Create User Accounts and Organize into Organizational Units (OUs) using script<b
 Manage Group Policies<br/>
 <img src="https://imgur.com/2j54YQp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://imgur.com/SBmmzpi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-Test Authentication<br/>
-<img src="https://imgur.com/SBmmzpi" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 </p>
+
+Summary
+
+This project provided a step-by-step guide to setting up a basic home lab that runs **Active Directory (AD)** in a virtualized environment. **Active Directory** is a Microsoft directory service that centralizes **authentication**, **authorization**, and **management** for users, devices, and resources within a Windows network. In this lab, I configured an Active Directory with Windows 2019 server and connected it to a client (Windows 11 Pro), created many user accounts, and assigned tasks to specific users.
