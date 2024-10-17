@@ -13,7 +13,7 @@ The purpose of this home lab setup is to simulate a real-world network, allowing
 
 <h2>Environments Used </h2>
 
-- <b>Windows 11</b>
+- <b>Windows 11 Pro</b>
 - <b>Windows 2019 Server</b>
 - <b> UTM Virtual Machines for macOS</b>
 
