@@ -1,4 +1,4 @@
-<h1>Setting Up Basic Home Lab Running Active Directory</h1>
+<h1>Setting Up Basic Home Lab and Running Active Directory</h1>
 
 <h2>Description</h2>
 This project outlines the steps to set up a basic home lab running Active Directory (AD) using a virtualized environment. Active Directory is a directory service developed by Microsoft that provides centralized authentication, authorization, and management for users, devices, and resources in a Windows-based network. 
